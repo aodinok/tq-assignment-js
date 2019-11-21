@@ -1,0 +1,12 @@
+.tq-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d6d8dc;
+  font-size: 16px;
+  color: #323C52;
+  outline-color: #47c4c6;
+}
+
+.tq-input::placeholder {
+  color: #ADB1BA;
+}
