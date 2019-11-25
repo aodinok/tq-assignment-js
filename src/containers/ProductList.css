@@ -1,0 +1,10 @@
+.tq-prod-list {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.tq-prod-list-error {
+  font-size: 16px;
+  color: #F1666C;
+}

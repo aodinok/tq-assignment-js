@@ -1,5 +1,6 @@
 import React from 'react';
-import Search from './components/Search';
+
+import ProductList from './containers/ProductList';
 import './App.css';
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         />
       </header>
       <main className="App-main">
-        <Search />
+        <ProductList />
       </main>
     </div>
   );

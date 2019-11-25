@@ -14,4 +14,7 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 24px;
+  /* TODO: to be really responsive we need to change flex-directing on different items based on screen width
+  and also do other adjustments, but that would take more time, and time is precious */
+  min-width: 400px;
 }
