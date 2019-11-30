@@ -10,6 +10,13 @@
   color: #323C52;
   font-family: 'Roboto';
   background: white;
+  user-select: none;
+  box-shadow: none;
+  transition: box-shadow .2s ease;
+}
+
+.tq-product:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0,0,0,.22);
 }
 
 @media only screen and (max-width: 600px) {
