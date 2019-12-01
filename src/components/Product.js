@@ -6,6 +6,9 @@ import './Product.css';
 class Product extends React.PureComponent {
   render() {
     const { productUrl, image, title, summary, price } = this.props;
+    // Open in a new tab to not preserve the search results for user
+    // in SPA application we could open new page in the same tab
+    // Whole product card is clickable to
     return (
       <a href={productUrl} className="tq-product" rel="noopener noreferrer" target="_blank">
         <div className="tq-product-img-container">
